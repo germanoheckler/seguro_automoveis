@@ -112,7 +112,7 @@ php artisan tinker
 >>> $user = new \App\Models\User;
 >>> $user->email = 'email.do.usuario@email.com';
 >>> $user->password = Hash::make('senha'); # altere 'senha' para uma senha forte
->>> $user->name = 'Nome do Usuário';
+////////////>>> $user->name = 'Nome do Usuário';
 >>> $user->save();
 >>> exit() # sair do tinker
 ```
